@@ -1,9 +1,61 @@
 ---
 layout: default
 title: Beispiel Arztpraxis - Erfassung der Ankündigung 'Neue Öffnungszeiten ab 01. März 2022'
-subtitle: Erklärung verwaltbare Felder
+subtitle: Erfassen von 'gültig ab' und Ankündigung
 ---
 <div>
-    Capture Edit from user
+    <div class="row">
+        <h4>02. Februar 2022, 16:48</h5>
+    </div>
+    <div class="row">
+        <label class="col-2" for="date"><b>Gültig ab</b></label>
+        <input class="col-2" type="text" id="date" value="01.03.2022" disabled="true">
+        <label class="col-2" for="time"></label>
+        <input class="col-2" type="text" id="time" value="00:00" disabled="true">
+    </div>
+    <div class="row">
+        <hr />
+    </div>
+    <div class="row">
+        <table class="col-12">
+            <tr>
+                <th>Feld</th>
+                <th>Zeitpunkt</th>
+                <th>Wert</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Info.zeile1</td>
+                <td>Aktuell</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Ab 01.03.2022</td>
+                <td>
+                    <input type="text" id="Info.zeile1" value="Neue Öffnungszeiten ab 01.03.2022" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Info.zeile2</td>
+                <td>Aktuell</td>
+                <td>zu "Corona", Covid-19</td>
+            </tr>
+            <tr>
+                <td>Ab 01.03.2022</td>
+                <td>
+                    <input type="text" id="Info.zeile2" value="zu &quot;Corona&quot;, Covid-19" size="100">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="row">
+        <hr />
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <button class="col-1" onclick="location.href='./3.user-input.html'">Vorschau</button>
+        <div class="col-6"></div>
+        <button class="col-2" onclick="location.href='./3.user-input.html'">Aktivieren</button>
+    </div>
+    
 </div>
  
