@@ -8,12 +8,6 @@ subtitle: Erfassen von 'gültig ab' und Ankündigung
         <h4>02. Februar 2022, 16:48</h5>
     </div>
     <div class="row">
-        <label class="col-2" for="date"><b>Gültig ab</b></label>
-        <input class="col-2" type="text" id="date" value="01.03.2022" disabled="true">
-        <label class="col-2" for="time"></label>
-        <input class="col-2" type="text" id="time" value="00:00" disabled="true">
-    </div>
-    <div class="row">
         <hr />
     </div>
     <div class="row col-12">
@@ -21,7 +15,10 @@ subtitle: Erfassen von 'gültig ab' und Ankündigung
             <tr>
                 <th style="width: 10%;">Feld</th>
                 <th style="width: 45%;">Aktuell</th>
-                <th style="width: 45%;">ab 01.03.2022 00:00</th>
+                <th style="width: 45%;">
+                    <label class="col-2" for="date" style="width: 100px;"><b>Gültig ab</b></label>
+                    <input class="col-2" type="text" id="date" value="01.03.2022 00:00"  style="width: 160px;">
+                </th>
             </tr>
             <tr>
                 <td>Info.zeile1</td>
@@ -40,9 +37,12 @@ subtitle: Erfassen von 'gültig ab' und Ankündigung
     </div>
     <div class="row row-empty-height-20px"></div>
     <div class="row">
-        <div class="col-1"></div>
-        <button class="col-1" onclick="location.href='./3.user-input.html'">Vorschau</button>
-        <div class="col-6"></div>
+        <div class="col-8"></div>
+        <button class="col-2" onclick="location.href='./3.user-input.html'">Vorschau</button>
+    </div>
+    <div class="row row-empty-height-20px"></div>
+    <div class="row">
+        <div class="col-8"></div>
         <button class="col-2" onclick="location.href='./3.user-input.html'">Aktivieren</button>
     </div>
     <div class="row row-empty-height-20px"></div>
