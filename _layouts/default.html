@@ -6,10 +6,11 @@
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="/javascript/script.js"></script>
 </head>
 
 <body>
-	<h1>Chamelion Demo</h1>
+	<h1><a href="/" style="color: black;">Chamelion Demo</a></h1>
 	<h2>{{ page.title }}</h2>
 	<h3>{{ page.subtitle }}</h2>
 	<hr/>
@@ -18,6 +19,7 @@
 		{{ content }}
 
 	</div>
+	<div class="row row-empty-height-20px"></div>
 	<footer>		
 		<div class="row">
 			<div class="col-12 tdright version">(C) RG, {{ site.data.version.v }}</div>
