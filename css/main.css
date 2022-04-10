@@ -44,6 +44,15 @@ img {
     height: auto;
   }
 
+.a-black {
+    color: black;
+}
+
+.calendar-icon {
+    width: 20px;
+    height: 20px;
+}
+
 .img-preview {
     border: 2px solid darkred;
 }
@@ -67,6 +76,27 @@ img {
     font-size: 1em;
     text-align: right;
 }
+
+.width-10-percent {
+    width: 10%;
+}
+
+.width-45-percent {
+    width: 45%;
+}
+
+.width-100-percent {
+    width: 100%;
+}
+
+.width-100-pixel {
+    width: 100px;
+}
+
+.width-160-pixel {
+    width: 160px;
+}
+
 body {
     margin: 60px auto;
     width: 70%;
